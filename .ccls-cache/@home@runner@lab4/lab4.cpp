@@ -11,16 +11,17 @@ int main()
 {
   // Below, declare all the variables you will use and make certain to give
   // each variable a descriptive name which explains what the variable represents.
-  int length,width;
+  int length;
+  int width;
   int surface_area;
   int small_brownies;
   int big_brownies;
   // Write a statement to output a prompt for the information the program needs to
   // get from the user.
-  cout << "Please enter the length and width of the baking pan in inches." << endl;
+  cout << "How long is the pan?" " " "How wide is the pan?" << endl;
   // Write a statement here to read the input from the user and save it in a
   // variable.
-  cin>> length >> width;
+  cin >> length >> width;
   // Write statements below which will perform the required computations and
   // assign the results to variables.
   surface_area = length * width;
