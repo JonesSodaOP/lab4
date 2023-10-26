@@ -11,7 +11,7 @@ int main()
 {
   // Below, declare all the variables you will use and make certain to give
   // each variable a descriptive name which explains what the variable represents.
-  int length;
+  int length; // I decided to define both length and width seperately to see a better layout
   int width;
   int surface_area;
   int small_brownies;
